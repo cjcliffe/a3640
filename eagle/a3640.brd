@@ -18732,13 +18732,213 @@
 <circle x="201.676" y="23.4474" radius="0.45" width="0" layer="15"/>
 <circle x="161.9885" y="16.8592" radius="0.45" width="0" layer="15"/>
 <circle x="15.8988" y="54.8402" radius="0.45" width="0" layer="15"/>
-<wire x1="0.127" y1="0" x2="207.01" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="207.01" y2="0" width="0" layer="20"/>
 <wire x1="207.01" y1="0" x2="207.01" y2="98.044" width="0" layer="20"/>
 <wire x1="207.01" y1="98.044" x2="0" y2="98.044" width="0" layer="20"/>
 <wire x1="0" y1="98.044" x2="0" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="0" x2="0.127" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
+<library name="MC68K">
+<description>&lt;b&gt;Motorola 68K Processors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de . 
+060 added by Rodolphe Czuba : rczuba@free.fr &lt;/author&gt;</description>
+<packages>
+<package name="MPGA-179">
+<wire x1="22.225" y1="-23.495" x2="-23.495" y2="-23.495" width="0.127" layer="21"/>
+<wire x1="-23.495" y1="-23.495" x2="-23.495" y2="23.495" width="0.127" layer="21"/>
+<wire x1="-23.495" y1="23.495" x2="23.495" y2="23.495" width="0.127" layer="21"/>
+<wire x1="23.495" y1="23.495" x2="23.495" y2="-22.225" width="0.127" layer="21"/>
+<wire x1="23.495" y1="-22.225" x2="22.225" y2="-23.495" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="15.24" x2="15.24" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-15.24" x2="-15.24" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-15.24" x2="15.24" y2="-11.43" width="0.127" layer="21"/>
+<wire x1="15.24" y1="-11.43" x2="15.24" y2="15.24" width="0.127" layer="21"/>
+<circle x="21.59" y="-21.59" radius="1.27" width="0.127" layer="21"/>
+<pad name="A01" x="21.59" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A02" x="19.05" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A03" x="16.51" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A04" x="13.97" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A05" x="11.43" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A06" x="8.89" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A07" x="6.35" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A08" x="3.81" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A09" x="1.27" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A10" x="-1.27" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A11" x="-3.81" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A12" x="-6.35" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A13" x="-8.89" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B13" x="-8.89" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M01" x="21.59" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L01" x="21.59" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K01" x="21.59" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J01" x="21.59" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H01" x="21.59" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G01" x="21.59" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F01" x="21.59" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E01" x="21.59" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D01" x="21.59" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B01" x="21.59" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B02" x="19.05" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B03" x="16.51" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B04" x="13.97" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B05" x="11.43" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B06" x="8.89" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B07" x="6.35" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B08" x="3.81" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B09" x="1.27" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B10" x="-1.27" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B11" x="-3.81" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B12" x="-6.35" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R13" x="-8.89" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S13" x="-8.89" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M02" x="19.05" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L02" x="19.05" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K02" x="19.05" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J02" x="19.05" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H02" x="19.05" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G02" x="19.05" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F02" x="19.05" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E02" x="19.05" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D02" x="19.05" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N02" x="19.05" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T13" x="-8.89" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T12" x="-6.35" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T11" x="-3.81" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T10" x="-1.27" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T09" x="1.27" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T08" x="3.81" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T07" x="6.35" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T06" x="8.89" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T05" x="11.43" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T04" x="13.97" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N03" x="16.51" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C13" x="-8.89" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C01" x="21.59" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C12" x="-6.35" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C11" x="-3.81" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C10" x="-1.27" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C09" x="1.27" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C08" x="3.81" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C07" x="6.35" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C06" x="8.89" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C05" x="11.43" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C04" x="13.97" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C03" x="16.51" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C02" x="19.05" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N01" x="21.59" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M03" x="16.51" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L03" x="16.51" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K03" x="16.51" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J03" x="16.51" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H03" x="16.51" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G03" x="16.51" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F03" x="16.51" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E03" x="16.51" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D03" x="16.51" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S12" x="-6.35" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R12" x="-6.35" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S04" x="13.97" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S05" x="11.43" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S06" x="8.89" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S07" x="6.35" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S08" x="3.81" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S09" x="1.27" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S10" x="-1.27" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S11" x="-3.81" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R11" x="-3.81" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R10" x="-1.27" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R09" x="1.27" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R08" x="3.81" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R07" x="6.35" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R06" x="8.89" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R05" x="11.43" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R04" x="13.97" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P01" x="21.59" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q01" x="21.59" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R01" x="21.59" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S01" x="21.59" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A14" x="-11.43" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A15" x="-13.97" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A16" x="-16.51" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A17" x="-19.05" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P02" x="19.05" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P03" x="16.51" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q02" x="19.05" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q03" x="16.51" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R03" x="16.51" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S03" x="16.51" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T03" x="16.51" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T02" x="19.05" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S02" x="19.05" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R02" x="19.05" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B14" x="-11.43" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C14" x="-11.43" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B15" x="-13.97" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C15" x="-13.97" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B16" x="-16.51" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C16" x="-16.51" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B17" x="-19.05" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C17" x="-19.05" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="B18" x="-21.59" y="-19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="C18" x="-21.59" y="-16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D16" x="-16.51" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D17" x="-19.05" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="D18" x="-21.59" y="-13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E16" x="-16.51" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E17" x="-19.05" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="E18" x="-21.59" y="-11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F16" x="-16.51" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F17" x="-19.05" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="F18" x="-21.59" y="-8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G16" x="-16.51" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H16" x="-16.51" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J16" x="-16.51" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K16" x="-16.51" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L16" x="-16.51" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M16" x="-16.51" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N16" x="-16.51" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P16" x="-16.51" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q16" x="-16.51" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R16" x="-16.51" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S16" x="-16.51" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T16" x="-16.51" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T17" x="-19.05" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S17" x="-19.05" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R17" x="-19.05" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q17" x="-19.05" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P17" x="-19.05" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N17" x="-19.05" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M17" x="-19.05" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L17" x="-19.05" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K17" x="-19.05" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J17" x="-19.05" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H17" x="-19.05" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G17" x="-19.05" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="G18" x="-21.59" y="-6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="H18" x="-21.59" y="-3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="J18" x="-21.59" y="-1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="K18" x="-21.59" y="1.27" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="L18" x="-21.59" y="3.81" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="M18" x="-21.59" y="6.35" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="N18" x="-21.59" y="8.89" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="P18" x="-21.59" y="11.43" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="Q18" x="-21.59" y="13.97" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R18" x="-21.59" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S18" x="-21.59" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R14" x="-11.43" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="R15" x="-13.97" y="16.51" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S15" x="-13.97" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T15" x="-13.97" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T14" x="-11.43" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="S14" x="-11.43" y="19.05" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="T18" x="-21.59" y="21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<pad name="A18" x="-21.59" y="-21.59" drill="0.8128" diameter="1.27" shape="octagon"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-5.08" y="0.635" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18928,6 +19128,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
+<element name="IC1" library="MC68K" package="MPGA-179" value="MC68040RC" x="171.323" y="71.247"/>
 </elements>
 <signals>
 <signal name="S$1">
@@ -43971,6 +44172,334 @@ design rules under a new name.</description>
 </signal>
 <signal name="S$4272">
 <wire x1="8.6222" y1="42.273" x2="9.6282" y2="41.2671" width="0.15" layer="16"/>
+</signal>
+<signal name="GND">
+<contactref element="IC1" pad="B02"/>
+<contactref element="IC1" pad="B04"/>
+<contactref element="IC1" pad="B06"/>
+<contactref element="IC1" pad="B08"/>
+<contactref element="IC1" pad="B10"/>
+<contactref element="IC1" pad="B13"/>
+<contactref element="IC1" pad="B15"/>
+<contactref element="IC1" pad="B17"/>
+<contactref element="IC1" pad="C06"/>
+<contactref element="IC1" pad="C07"/>
+<contactref element="IC1" pad="C09"/>
+<contactref element="IC1" pad="C11"/>
+<contactref element="IC1" pad="C13"/>
+<contactref element="IC1" pad="D02"/>
+<contactref element="IC1" pad="D17"/>
+<contactref element="IC1" pad="F02"/>
+<contactref element="IC1" pad="F17"/>
+<contactref element="IC1" pad="H02"/>
+<contactref element="IC1" pad="H17"/>
+<contactref element="IC1" pad="K03"/>
+<contactref element="IC1" pad="K16"/>
+<contactref element="IC1" pad="L02"/>
+<contactref element="IC1" pad="L03"/>
+<contactref element="IC1" pad="L17"/>
+<contactref element="IC1" pad="M16"/>
+<contactref element="IC1" pad="N02"/>
+<contactref element="IC1" pad="N17"/>
+<contactref element="IC1" pad="Q02"/>
+<contactref element="IC1" pad="Q17"/>
+<contactref element="IC1" pad="R04"/>
+<contactref element="IC1" pad="R06"/>
+<contactref element="IC1" pad="R10"/>
+<contactref element="IC1" pad="R11"/>
+<contactref element="IC1" pad="R13"/>
+<contactref element="IC1" pad="S02"/>
+<contactref element="IC1" pad="S09"/>
+<contactref element="IC1" pad="S10"/>
+<contactref element="IC1" pad="S15"/>
+<contactref element="IC1" pad="S17"/>
+<contactref element="IC1" pad="T04"/>
+<wire x1="157.353" y1="52.197" x2="152.273" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="57.277" x2="152.273" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="162.433" y1="52.197" x2="157.353" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="162.433" y1="54.737" x2="162.433" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="62.357" x2="152.273" y2="57.277" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="67.437" x2="152.273" y2="62.357" width="0" layer="19" extent="1-1"/>
+<wire x1="167.513" y1="54.737" x2="162.433" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="170.053" y1="52.197" x2="167.513" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="172.593" y1="54.737" x2="170.053" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="175.133" y1="52.197" x2="172.593" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="177.673" y1="54.737" x2="175.133" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="180.213" y1="54.737" x2="177.673" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="180.213" y1="52.197" x2="180.213" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="185.293" y1="52.197" x2="180.213" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="52.197" x2="185.293" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="57.277" x2="190.373" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="62.357" x2="190.373" y2="57.277" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="67.437" x2="190.373" y2="62.357" width="0" layer="19" extent="1-1"/>
+<wire x1="187.833" y1="72.517" x2="190.373" y2="67.437" width="0" layer="19" extent="1-1"/>
+<wire x1="187.833" y1="75.057" x2="187.833" y2="72.517" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="75.057" x2="187.833" y2="75.057" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="80.137" x2="190.373" y2="75.057" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="85.217" x2="190.373" y2="80.137" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="90.297" x2="190.373" y2="85.217" width="0" layer="19" extent="1-1"/>
+<wire x1="185.293" y1="92.837" x2="190.373" y2="90.297" width="0" layer="19" extent="1-1"/>
+<wire x1="185.293" y1="87.757" x2="185.293" y2="92.837" width="0" layer="19" extent="1-1"/>
+<wire x1="180.213" y1="87.757" x2="185.293" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="72.517" x2="152.273" y2="67.437" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="75.057" x2="154.813" y2="72.517" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="77.597" x2="152.273" y2="75.057" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="80.137" x2="154.813" y2="77.597" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="85.217" x2="152.273" y2="80.137" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="90.297" x2="152.273" y2="85.217" width="0" layer="19" extent="1-1"/>
+<wire x1="157.353" y1="90.297" x2="152.273" y2="90.297" width="0" layer="19" extent="1-1"/>
+<wire x1="162.433" y1="87.757" x2="157.353" y2="90.297" width="0" layer="19" extent="1-1"/>
+<wire x1="167.513" y1="87.757" x2="162.433" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="170.053" y1="87.757" x2="167.513" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="170.053" y1="90.297" x2="170.053" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="172.593" y1="90.297" x2="170.053" y2="90.297" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VCC">
+<contactref element="IC1" pad="B05"/>
+<contactref element="IC1" pad="B09"/>
+<contactref element="IC1" pad="B14"/>
+<contactref element="IC1" pad="C02"/>
+<contactref element="IC1" pad="C05"/>
+<contactref element="IC1" pad="C08"/>
+<contactref element="IC1" pad="C10"/>
+<contactref element="IC1" pad="C12"/>
+<contactref element="IC1" pad="C14"/>
+<contactref element="IC1" pad="C17"/>
+<contactref element="IC1" pad="G02"/>
+<contactref element="IC1" pad="G17"/>
+<contactref element="IC1" pad="H03"/>
+<contactref element="IC1" pad="H16"/>
+<contactref element="IC1" pad="J03"/>
+<contactref element="IC1" pad="J16"/>
+<contactref element="IC1" pad="L16"/>
+<contactref element="IC1" pad="M02"/>
+<contactref element="IC1" pad="M03"/>
+<contactref element="IC1" pad="M17"/>
+<contactref element="IC1" pad="R02"/>
+<contactref element="IC1" pad="R05"/>
+<contactref element="IC1" pad="R08"/>
+<contactref element="IC1" pad="R12"/>
+<contactref element="IC1" pad="R17"/>
+<contactref element="IC1" pad="S08"/>
+<contactref element="IC1" pad="S16"/>
+<wire x1="159.893" y1="54.737" x2="152.273" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="159.893" y1="52.197" x2="159.893" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="164.973" y1="54.737" x2="159.893" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="170.053" y1="54.737" x2="164.973" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="172.593" y1="52.197" x2="170.053" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="175.133" y1="54.737" x2="172.593" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="182.753" y1="54.737" x2="175.133" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="182.753" y1="52.197" x2="182.753" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="54.737" x2="182.753" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="64.897" x2="152.273" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="67.437" x2="152.273" y2="64.897" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="69.977" x2="154.813" y2="67.437" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="75.057" x2="154.813" y2="69.977" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="77.597" x2="154.813" y2="75.057" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="64.897" x2="190.373" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="187.833" y1="67.437" x2="190.373" y2="64.897" width="0" layer="19" extent="1-1"/>
+<wire x1="187.833" y1="69.977" x2="187.833" y2="67.437" width="0" layer="19" extent="1-1"/>
+<wire x1="187.833" y1="77.597" x2="187.833" y2="69.977" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="77.597" x2="187.833" y2="77.597" width="0" layer="19" extent="1-1"/>
+<wire x1="190.373" y1="87.757" x2="190.373" y2="77.597" width="0" layer="19" extent="1-1"/>
+<wire x1="182.753" y1="87.757" x2="190.373" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="175.133" y1="87.757" x2="182.753" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="175.133" y1="90.297" x2="175.133" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="164.973" y1="87.757" x2="175.133" y2="87.757" width="0" layer="19" extent="1-1"/>
+<wire x1="152.273" y1="87.757" x2="152.273" y2="77.597" width="0" layer="19" extent="1-1"/>
+<wire x1="154.813" y1="90.297" x2="152.273" y2="87.757" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="D040_0">
+<contactref element="IC1" pad="C03"/>
+</signal>
+<signal name="D040_1">
+<contactref element="IC1" pad="B03"/>
+</signal>
+<signal name="D040_2">
+<contactref element="IC1" pad="C04"/>
+</signal>
+<signal name="D040_3">
+<contactref element="IC1" pad="A02"/>
+</signal>
+<signal name="D040_4">
+<contactref element="IC1" pad="A03"/>
+</signal>
+<signal name="D040_5">
+<contactref element="IC1" pad="A04"/>
+</signal>
+<signal name="D040_6">
+<contactref element="IC1" pad="A05"/>
+</signal>
+<signal name="D040_7">
+<contactref element="IC1" pad="A06"/>
+</signal>
+<signal name="D040_8">
+<contactref element="IC1" pad="B07"/>
+</signal>
+<signal name="D040_9">
+<contactref element="IC1" pad="A07"/>
+</signal>
+<signal name="D040_10">
+<contactref element="IC1" pad="A08"/>
+</signal>
+<signal name="D040_11">
+<contactref element="IC1" pad="A09"/>
+</signal>
+<signal name="D040_12">
+<contactref element="IC1" pad="A10"/>
+</signal>
+<signal name="D040_13">
+<contactref element="IC1" pad="A11"/>
+</signal>
+<signal name="D040_14">
+<contactref element="IC1" pad="A12"/>
+</signal>
+<signal name="D040_15">
+<contactref element="IC1" pad="A13"/>
+</signal>
+<signal name="D040_16">
+<contactref element="IC1" pad="B11"/>
+</signal>
+<signal name="D040_17">
+<contactref element="IC1" pad="A14"/>
+</signal>
+<signal name="D040_18">
+<contactref element="IC1" pad="B12"/>
+</signal>
+<signal name="D040_19">
+<contactref element="IC1" pad="A15"/>
+</signal>
+<signal name="D040_20">
+<contactref element="IC1" pad="A16"/>
+</signal>
+<signal name="D040_21">
+<contactref element="IC1" pad="A17"/>
+</signal>
+<signal name="D040_22">
+<contactref element="IC1" pad="B16"/>
+</signal>
+<signal name="D040_23">
+<contactref element="IC1" pad="C15"/>
+</signal>
+<signal name="D040_24">
+<contactref element="IC1" pad="A18"/>
+</signal>
+<signal name="D040_25">
+<contactref element="IC1" pad="C16"/>
+</signal>
+<signal name="D040_26">
+<contactref element="IC1" pad="B18"/>
+</signal>
+<signal name="D040_27">
+<contactref element="IC1" pad="D16"/>
+</signal>
+<signal name="D040_28">
+<contactref element="IC1" pad="C18"/>
+</signal>
+<signal name="D040_29">
+<contactref element="IC1" pad="E16"/>
+</signal>
+<signal name="D040_30">
+<contactref element="IC1" pad="E17"/>
+</signal>
+<signal name="D040_31">
+<contactref element="IC1" pad="D18"/>
+</signal>
+<signal name="A040_0">
+<contactref element="IC1" pad="L18"/>
+</signal>
+<signal name="A040_1">
+<contactref element="IC1" pad="K18"/>
+</signal>
+<signal name="A040_2">
+<contactref element="IC1" pad="J17"/>
+</signal>
+<signal name="A040_3">
+<contactref element="IC1" pad="J18"/>
+</signal>
+<signal name="A040_4">
+<contactref element="IC1" pad="H18"/>
+</signal>
+<signal name="A040_5">
+<contactref element="IC1" pad="G18"/>
+</signal>
+<signal name="A040_6">
+<contactref element="IC1" pad="G16"/>
+</signal>
+<signal name="A040_7">
+<contactref element="IC1" pad="F18"/>
+</signal>
+<signal name="A040_8">
+<contactref element="IC1" pad="E18"/>
+</signal>
+<signal name="A040_9">
+<contactref element="IC1" pad="F16"/>
+</signal>
+<signal name="A040_10">
+<contactref element="IC1" pad="P01"/>
+</signal>
+<signal name="A040_11">
+<contactref element="IC1" pad="N03"/>
+</signal>
+<signal name="A040_12">
+<contactref element="IC1" pad="N01"/>
+</signal>
+<signal name="A040_13">
+<contactref element="IC1" pad="M01"/>
+</signal>
+<signal name="A040_14">
+<contactref element="IC1" pad="L01"/>
+</signal>
+<signal name="A040_15">
+<contactref element="IC1" pad="K01"/>
+</signal>
+<signal name="A040_16">
+<contactref element="IC1" pad="K02"/>
+</signal>
+<signal name="A040_17">
+<contactref element="IC1" pad="J01"/>
+</signal>
+<signal name="A040_18">
+<contactref element="IC1" pad="H01"/>
+</signal>
+<signal name="A040_19">
+<contactref element="IC1" pad="J02"/>
+</signal>
+<signal name="A040_20">
+<contactref element="IC1" pad="G01"/>
+</signal>
+<signal name="A040_21">
+<contactref element="IC1" pad="F01"/>
+</signal>
+<signal name="A040_22">
+<contactref element="IC1" pad="E01"/>
+</signal>
+<signal name="A040_23">
+<contactref element="IC1" pad="G03"/>
+</signal>
+<signal name="A040_24">
+<contactref element="IC1" pad="D01"/>
+</signal>
+<signal name="A040_25">
+<contactref element="IC1" pad="F03"/>
+</signal>
+<signal name="A040_26">
+<contactref element="IC1" pad="E02"/>
+</signal>
+<signal name="A040_27">
+<contactref element="IC1" pad="C01"/>
+</signal>
+<signal name="A040_28">
+<contactref element="IC1" pad="E03"/>
+</signal>
+<signal name="A040_29">
+<contactref element="IC1" pad="B01"/>
+</signal>
+<signal name="A040_30">
+<contactref element="IC1" pad="D03"/>
+</signal>
+<signal name="A040_31">
+<contactref element="IC1" pad="A01"/>
 </signal>
 </signals>
 </board>
