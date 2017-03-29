@@ -44501,6 +44501,63 @@ design rules under a new name.</description>
 <signal name="A040_31">
 <contactref element="IC1" pad="A01"/>
 </signal>
+<signal name="IPL0">
+<contactref element="IC1" pad="T08"/>
+</signal>
+<signal name="IPL1">
+<contactref element="IC1" pad="T07"/>
+</signal>
+<signal name="IPL2">
+<contactref element="IC1" pad="T06"/>
+</signal>
+<signal name="BR">
+<contactref element="IC1" pad="T18"/>
+</signal>
+<signal name="BG">
+<contactref element="IC1" pad="T13"/>
+</signal>
+<signal name="BB">
+<contactref element="IC1" pad="T17"/>
+</signal>
+<signal name="BCLK">
+<contactref element="IC1" pad="R07"/>
+</signal>
+<signal name="PCLK">
+<contactref element="IC1" pad="R09"/>
+</signal>
+<signal name="TT0">
+<contactref element="IC1" pad="P03"/>
+</signal>
+<signal name="TT1">
+<contactref element="IC1" pad="P02"/>
+</signal>
+<signal name="TM0">
+<contactref element="IC1" pad="N18"/>
+</signal>
+<signal name="TM1">
+<contactref element="IC1" pad="M18"/>
+</signal>
+<signal name="TM2">
+<contactref element="IC1" pad="K17"/>
+</signal>
+<signal name="TLN0">
+<contactref element="IC1" pad="Q18"/>
+</signal>
+<signal name="TLN1">
+<contactref element="IC1" pad="P18"/>
+</signal>
+<signal name="SIZ0">
+<contactref element="IC1" pad="P17"/>
+</signal>
+<signal name="SIZ1">
+<contactref element="IC1" pad="P16"/>
+</signal>
+<signal name="R/W">
+<contactref element="IC1" pad="N16"/>
+</signal>
+<signal name="AVEC">
+<contactref element="IC1" pad="T11"/>
+</signal>
 </signals>
 </board>
 </drawing>
