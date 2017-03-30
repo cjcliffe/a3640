@@ -2,10 +2,10 @@ This folder contains information about the A3640 extracted from several sites as
 
 Most of the content are from:
 
-Amigawiki.de
-David Haynie archives
-Archive.org
+Amigawiki.de<br/>
+David Haynie archives<br/>
+Archive.org<br/><br/>
 
-.. Internet
+.. Internet<br/>
 
 Property of their respective owners. Used only as reference.
