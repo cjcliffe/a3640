@@ -773,6 +773,62 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 <rectangle x1="-5.9649" y1="3.7349" x2="-5.4651" y2="5.0651" layer="51"/>
 <rectangle x1="-7.2349" y1="3.7349" x2="-6.7351" y2="5.0651" layer="51"/>
 </package>
+<package name="74FCT543A">
+<wire x1="7.68" y1="-3.7" x2="-7.68" y2="-3.7" width="0.2032" layer="51"/>
+<wire x1="-7.68" y1="-3.7" x2="-7.68" y2="3.7" width="0.2032" layer="21"/>
+<wire x1="-7.68" y1="3.7" x2="7.68" y2="3.7" width="0.2032" layer="51"/>
+<wire x1="7.68" y1="3.7" x2="7.68" y2="-3.7" width="0.2032" layer="21"/>
+<smd name="2" x="-5.715" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="1.905" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-6.985" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-4.445" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-3.175" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="0.635" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="3.175" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="4.445" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="-0.635" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="9" x="3.175" y="-4.8" dx="0.6" dy="2.2" layer="1" rot="R180"/>
+<smd name="5" x="-1.905" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="0.635" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="10" x="4.445" y="-4.8" dx="0.6" dy="2.2" layer="1" rot="R180"/>
+<smd name="8" x="1.905" y="-4.775" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="-0.635" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="20" x="-1.905" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="21" x="-3.175" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="22" x="-4.445" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="23" x="-5.715" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="24" x="-6.985" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<text x="1.143" y="2.667" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<rectangle x1="-7.23" y1="-5.275" x2="-6.74" y2="-3.8" layer="51"/>
+<rectangle x1="-5.96" y1="-5.275" x2="-5.47" y2="-3.8" layer="51"/>
+<rectangle x1="-4.69" y1="-5.275" x2="-4.2" y2="-3.8" layer="51"/>
+<rectangle x1="-3.42" y1="-5.275" x2="-2.93" y2="-3.8" layer="51"/>
+<rectangle x1="4.2" y1="3.8" x2="4.69" y2="5.3" layer="51"/>
+<rectangle x1="2.93" y1="3.8" x2="3.42" y2="5.3" layer="51"/>
+<rectangle x1="1.66" y1="3.8" x2="2.15" y2="5.3" layer="51"/>
+<rectangle x1="0.39" y1="3.8" x2="0.88" y2="5.3" layer="51"/>
+<rectangle x1="-2.15" y1="-5.275" x2="-1.66" y2="-3.8" layer="51"/>
+<rectangle x1="-0.88" y1="-5.275" x2="-0.39" y2="-3.8" layer="51"/>
+<rectangle x1="0.39" y1="-5.275" x2="0.88" y2="-3.8" layer="51"/>
+<rectangle x1="2.93" y1="-5.3" x2="3.42" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="4.2" y1="-5.3" x2="4.69" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="-0.88" y1="3.8" x2="-0.39" y2="5.3" layer="51"/>
+<rectangle x1="-2.15" y1="3.8" x2="-1.66" y2="5.3" layer="51"/>
+<rectangle x1="-3.42" y1="3.8" x2="-2.93" y2="5.3" layer="51"/>
+<rectangle x1="-4.69" y1="3.8" x2="-4.2" y2="5.3" layer="51"/>
+<rectangle x1="-5.96" y1="3.8" x2="-5.47" y2="5.3" layer="51"/>
+<rectangle x1="-7.23" y1="3.8" x2="-6.74" y2="5.3" layer="51"/>
+<rectangle x1="1.66" y1="-5.275" x2="2.15" y2="-3.8" layer="51"/>
+<circle x="-6.731" y="-0.127" radius="0.5388125" width="0.127" layer="21"/>
+<smd name="14" x="5.715" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="6.985" y="4.8" dx="0.6" dy="2.2" layer="1"/>
+<rectangle x1="6.74" y1="3.8" x2="7.23" y2="5.3" layer="51"/>
+<rectangle x1="5.47" y1="3.8" x2="5.96" y2="5.3" layer="51"/>
+<smd name="11" x="5.715" y="-4.8" dx="0.6" dy="2.2" layer="1" rot="R180"/>
+<smd name="12" x="6.985" y="-4.8" dx="0.6" dy="2.2" layer="1" rot="R180"/>
+<rectangle x1="5.47" y1="-5.3" x2="5.96" y2="-3.8" layer="51" rot="R180"/>
+<rectangle x1="6.74" y1="-5.3" x2="7.23" y2="-3.8" layer="51" rot="R180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="74543">
@@ -845,6 +901,193 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 <technology name=""/>
 </technologies>
 </device>
+<device name="SOIC24" package="74FCT543A">
+<connects>
+<connect gate="G$1" pin="A0" pad="3"/>
+<connect gate="G$1" pin="A1" pad="4"/>
+<connect gate="G$1" pin="A2" pad="5"/>
+<connect gate="G$1" pin="A3" pad="6"/>
+<connect gate="G$1" pin="A4" pad="7"/>
+<connect gate="G$1" pin="A5" pad="8"/>
+<connect gate="G$1" pin="A6" pad="9"/>
+<connect gate="G$1" pin="A7" pad="10"/>
+<connect gate="G$1" pin="B0" pad="22"/>
+<connect gate="G$1" pin="B1" pad="21"/>
+<connect gate="G$1" pin="B2" pad="20"/>
+<connect gate="G$1" pin="B3" pad="19"/>
+<connect gate="G$1" pin="B4" pad="18"/>
+<connect gate="G$1" pin="B5" pad="17"/>
+<connect gate="G$1" pin="B6" pad="16"/>
+<connect gate="G$1" pin="B7" pad="15"/>
+<connect gate="G$1" pin="CEAB" pad="11"/>
+<connect gate="G$1" pin="CEBA" pad="23"/>
+<connect gate="G$1" pin="GND" pad="12"/>
+<connect gate="G$1" pin="LEAB" pad="14"/>
+<connect gate="G$1" pin="LEBA" pad="1"/>
+<connect gate="G$1" pin="OEAB" pad="13"/>
+<connect gate="G$1" pin="OEBA" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="24"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="a3640_edu_v0.1">
+<description>&lt;b&gt;Librería A3640&lt;/b&gt;&lt;p&gt;
+ Actualizada a 30-03-2017&lt;p&gt;
+&lt;Autor&gt;Creada por  @edu_arana&lt;/author&gt;&lt;p&gt;</description>
+<packages>
+<package name="GAL22V10">
+<wire x1="6.2" y1="6.2" x2="-3.965" y2="6.2" width="0.1998" layer="51"/>
+<wire x1="-6.2" y1="3.965" x2="-6.2" y2="-6.2" width="0.1998" layer="51"/>
+<wire x1="-6.2" y1="-6.2" x2="6.2" y2="-6.2" width="0.1998" layer="51"/>
+<wire x1="6.2" y1="-6.2" x2="6.2" y2="6.2" width="0.1998" layer="51"/>
+<wire x1="-3.965" y1="6.2" x2="-6.2" y2="3.965" width="0.1998" layer="51"/>
+<circle x="0" y="5.1001" radius="0.3" width="0.6096" layer="51"/>
+<smd name="1" x="0" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="2" x="-1.27" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="-2.54" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="-3.81" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="-5.6" y="3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="6" x="-5.6" y="2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="7" x="-5.6" y="1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="8" x="-5.6" y="0" dx="2.2" dy="0.6" layer="1"/>
+<smd name="9" x="-5.6" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="10" x="-5.6" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="11" x="-5.6" y="-3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="12" x="-3.81" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="13" x="-2.54" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="14" x="-1.27" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="15" x="0" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="16" x="1.27" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="17" x="2.54" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="18" x="3.81" y="-5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="19" x="5.6" y="-3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="20" x="5.6" y="-2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="21" x="5.6" y="-1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="22" x="5.6" y="0" dx="2.2" dy="0.6" layer="1"/>
+<smd name="23" x="5.6" y="1.27" dx="2.2" dy="0.6" layer="1"/>
+<smd name="24" x="5.6" y="2.54" dx="2.2" dy="0.6" layer="1"/>
+<smd name="25" x="5.6" y="3.81" dx="2.2" dy="0.6" layer="1"/>
+<smd name="26" x="3.81" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="27" x="2.54" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="28" x="1.27" y="5.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-4.475" y="1.905" size="1.778" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-2.4051" size="1.778" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2601" y1="6.2499" x2="0.2601" y2="6.7" layer="51"/>
+<rectangle x1="-1.5301" y1="6.2499" x2="-1.0099" y2="6.7" layer="51"/>
+<rectangle x1="-2.8001" y1="6.2499" x2="-2.2799" y2="6.7" layer="51"/>
+<rectangle x1="-4.0701" y1="6.2499" x2="-3.5499" y2="6.7" layer="51"/>
+<rectangle x1="-6.7" y1="3.5499" x2="-6.2499" y2="4.0701" layer="51"/>
+<rectangle x1="-6.7" y1="2.2799" x2="-6.2499" y2="2.8001" layer="51"/>
+<rectangle x1="-6.7" y1="1.0099" x2="-6.2499" y2="1.5301" layer="51"/>
+<rectangle x1="-6.7" y1="-0.2601" x2="-6.2499" y2="0.2601" layer="51"/>
+<rectangle x1="-6.7" y1="-1.5301" x2="-6.2499" y2="-1.0099" layer="51"/>
+<rectangle x1="-6.7" y1="-2.8001" x2="-6.2499" y2="-2.2799" layer="51"/>
+<rectangle x1="-6.7" y1="-4.0701" x2="-6.2499" y2="-3.5499" layer="51"/>
+<rectangle x1="-4.0701" y1="-6.7" x2="-3.5499" y2="-6.2499" layer="51"/>
+<rectangle x1="-2.8001" y1="-6.7" x2="-2.2799" y2="-6.2499" layer="51"/>
+<rectangle x1="-1.5301" y1="-6.7" x2="-1.0099" y2="-6.2499" layer="51"/>
+<rectangle x1="-0.2601" y1="-6.7" x2="0.2601" y2="-6.2499" layer="51"/>
+<rectangle x1="1.0099" y1="-6.7" x2="1.5301" y2="-6.2499" layer="51"/>
+<rectangle x1="2.2799" y1="-6.7" x2="2.8001" y2="-6.2499" layer="51"/>
+<rectangle x1="3.5499" y1="-6.7" x2="4.0701" y2="-6.2499" layer="51"/>
+<rectangle x1="6.2499" y1="-4.0701" x2="6.7" y2="-3.5499" layer="51"/>
+<rectangle x1="6.2499" y1="-2.8001" x2="6.7" y2="-2.2799" layer="51"/>
+<rectangle x1="6.2499" y1="-1.5301" x2="6.7" y2="-1.0099" layer="51"/>
+<rectangle x1="6.2499" y1="-0.2601" x2="6.7" y2="0.2601" layer="51"/>
+<rectangle x1="6.2499" y1="1.0099" x2="6.7" y2="1.5301" layer="51"/>
+<rectangle x1="6.2499" y1="2.2799" x2="6.7" y2="2.8001" layer="51"/>
+<rectangle x1="6.2499" y1="3.5499" x2="6.7" y2="4.0701" layer="51"/>
+<rectangle x1="3.5499" y1="6.2499" x2="4.0701" y2="6.7" layer="51"/>
+<rectangle x1="2.2799" y1="6.2499" x2="2.8001" y2="6.7" layer="51"/>
+<rectangle x1="1.0099" y1="6.2499" x2="1.5301" y2="6.7" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GAL22V10">
+<wire x1="-10.16" y1="25.4" x2="10.16" y2="25.4" width="0.254" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-22.86" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
+<text x="-10.16" y="-25.4" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-10.16" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<pin name="I0" x="-15.24" y="7.62" length="middle" direction="in" swaplevel="1"/>
+<pin name="I/O/Q0" x="15.24" y="7.62" length="middle" swaplevel="2" rot="R180"/>
+<pin name="SDI" x="-15.24" y="20.32" length="middle" direction="in"/>
+<pin name="MODE" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="SCLK" x="-15.24" y="15.24" length="middle" direction="in" function="clk"/>
+<pin name="SDO" x="-15.24" y="22.86" length="middle" direction="out"/>
+<pin name="I1" x="-15.24" y="5.08" length="middle" direction="in" swaplevel="1"/>
+<pin name="I2" x="-15.24" y="2.54" length="middle" direction="in" swaplevel="1"/>
+<pin name="I3" x="-15.24" y="0" length="middle" direction="in" swaplevel="1"/>
+<pin name="I4" x="-15.24" y="-2.54" length="middle" direction="in" swaplevel="1"/>
+<pin name="I5" x="-15.24" y="-5.08" length="middle" direction="in" swaplevel="1"/>
+<pin name="I6" x="-15.24" y="-7.62" length="middle" direction="in" swaplevel="1"/>
+<pin name="I7" x="-15.24" y="-10.16" length="middle" direction="in" swaplevel="1"/>
+<pin name="I8" x="-15.24" y="-12.7" length="middle" direction="in" swaplevel="1"/>
+<pin name="I9" x="-15.24" y="-15.24" length="middle" direction="in" swaplevel="1"/>
+<pin name="I10" x="-15.24" y="-17.78" length="middle" direction="in" swaplevel="1"/>
+<pin name="I/O/Q1" x="15.24" y="5.08" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q2" x="15.24" y="2.54" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q3" x="15.24" y="0" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q4" x="15.24" y="-2.54" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q5" x="15.24" y="-5.08" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q6" x="15.24" y="-7.62" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q7" x="15.24" y="-10.16" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q8" x="15.24" y="-12.7" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/O/Q9" x="15.24" y="-15.24" length="middle" swaplevel="2" rot="R180"/>
+<pin name="I/CLK" x="-15.24" y="-20.32" length="middle" direction="in"/>
+<pin name="GND" x="15.24" y="22.86" length="middle" swaplevel="2" rot="R180"/>
+<pin name="VCC" x="15.24" y="17.78" length="middle" swaplevel="2" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GAL22V10">
+<description>GAL22V10 PARA A3640</description>
+<gates>
+<gate name="G$1" symbol="GAL22V10" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="GAL22V10">
+<connects>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="I/CLK" pad="2"/>
+<connect gate="G$1" pin="I/O/Q0" pad="17"/>
+<connect gate="G$1" pin="I/O/Q1" pad="18"/>
+<connect gate="G$1" pin="I/O/Q2" pad="19"/>
+<connect gate="G$1" pin="I/O/Q3" pad="20"/>
+<connect gate="G$1" pin="I/O/Q4" pad="21"/>
+<connect gate="G$1" pin="I/O/Q5" pad="23"/>
+<connect gate="G$1" pin="I/O/Q6" pad="24"/>
+<connect gate="G$1" pin="I/O/Q7" pad="25"/>
+<connect gate="G$1" pin="I/O/Q8" pad="26"/>
+<connect gate="G$1" pin="I/O/Q9" pad="27"/>
+<connect gate="G$1" pin="I0" pad="3"/>
+<connect gate="G$1" pin="I1" pad="4"/>
+<connect gate="G$1" pin="I10" pad="16"/>
+<connect gate="G$1" pin="I2" pad="5"/>
+<connect gate="G$1" pin="I3" pad="6"/>
+<connect gate="G$1" pin="I4" pad="7"/>
+<connect gate="G$1" pin="I5" pad="9"/>
+<connect gate="G$1" pin="I6" pad="10"/>
+<connect gate="G$1" pin="I7" pad="11"/>
+<connect gate="G$1" pin="I8" pad="12"/>
+<connect gate="G$1" pin="I9" pad="13"/>
+<connect gate="G$1" pin="MODE" pad="8"/>
+<connect gate="G$1" pin="SCLK" pad="1"/>
+<connect gate="G$1" pin="SDI" pad="15"/>
+<connect gate="G$1" pin="SDO" pad="22"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -860,14 +1103,18 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 </classes>
 <parts>
 <part name="IC1" library="MC68K" deviceset="MC68040RC" device=""/>
-<part name="U214" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U215" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U216" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U217" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U218" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U219" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U220" library="terriblefire" deviceset="74FCT543" device=""/>
-<part name="U221" library="terriblefire" deviceset="74FCT543" device=""/>
+<part name="U214" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U215" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U216" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U217" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U218" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U219" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U220" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U221" library="terriblefire" deviceset="74FCT543" device="SOIC24" value="74FCT543SOIC24"/>
+<part name="U204" library="a3640_edu_v0.1" deviceset="GAL22V10" device=""/>
+<part name="U205" library="a3640_edu_v0.1" deviceset="GAL22V10" device=""/>
+<part name="U209" library="a3640_edu_v0.1" deviceset="GAL22V10" device=""/>
+<part name="U207" library="a3640_edu_v0.1" deviceset="GAL22V10" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1483,7 +1730,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 <instance part="U221" gate="G$1" x="226.06" y="27.94"/>
 </instances>
 <busses>
-<bus name="VCC,GND,D040_[0..31],A040_[0..31],IPL[0..2],BR,BG,BB,BCLK,PCLK,TT[0..1],TM[0..2],TLN[0..1],SIZ[0..1],R/W,AVEC,LEBUS[0..7]">
+<bus name="VCC,GND,D[0..31],D040_[0..31],A040_[0..31],IPL[0..2],BR,BG,BB,BCLK,PCLK,TT[0..1],TM[0..2],TLN[0..1],SIZ[0..1],R/W,AVEC,LEBUS[0..7]">
 <segment>
 <wire x1="0" y1="0" x2="0" y2="132.08" width="0.762" layer="92"/>
 <wire x1="0" y1="132.08" x2="63.5" y2="132.08" width="0.762" layer="92"/>
@@ -1882,6 +2129,20 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 <pinref part="U220" gate="G$1" pin="A7"/>
 </segment>
 </net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="U204" gate="G$1" x="71.12" y="137.16"/>
+<instance part="U205" gate="G$1" x="71.12" y="66.04"/>
+<instance part="U209" gate="G$1" x="167.64" y="134.62"/>
+<instance part="U207" gate="G$1" x="167.64" y="66.04"/>
+</instances>
+<busses>
+</busses>
+<nets>
 </nets>
 </sheet>
 </sheets>
