@@ -4,7 +4,7 @@ Most of the content are from:
 
 Amigawiki.de<br/>
 David Haynie archives<br/>
-Archive.org<br/><br/>
+Archive.org<br/>
 
 .. Internet<br/>
 
